@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: cursive;
+}
+
+h1{
+    color: blue
+}
+
+h2{
+    color: darkred;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 15px;
+    transition-duration: 500ms;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+section:hover {
+    border: 2px solid darkgray;
+}
+
+main {
+    margin: auto;
+}
+
+#inicio {
+    background-color: lightblue;
+}
+
+
+.nome {
+    color: darkred
+}
+
+header {
+    text-align: center;
+}
